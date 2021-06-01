@@ -1,0 +1,118 @@
+program fgj;
+var
+  x,y,i, a: integer;
+  min:real;
+function arr (a,k:integer;t:real):real;
+    var
+    c:real;
+    o,p,i:integer;
+    begin
+        write ('tt');
+        write (i);
+        if not(a<>4) and (a>5) then
+        begin
+        while (a>4) do
+        begin
+        i :=14;
+        end;
+        end;
+    end;
+begin
+  x:=1;
+  y:=2;
+  if (x<y) and (x<>5) then
+  begin
+    min := 1234.5;
+  end;
+  i := 1;
+  a := 1;
+  while (a<=5) do
+      begin
+        i :=14+2+ x*x+y*y-2;
+        write(i);
+        a:=a+1;
+        break;
+        x:=5*x;
+      end;
+  write(i);
+  write('helllooooooo');
+end.
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+program fgj;
+var x,y:integer;
+q:real;
+function arr(x:integer):integer;
+var a:integer;
+begin
+x:=x+5;
+arr:=x;
+end;
+
+begin
+x:=0;
+q:=3.5;
+x:= arr(x);
+y:=4;
+while (x<5) do
+    x:=x-1;
+    if (y<5) then
+    begin
+        x:=x+1;
+        break;
+    end;
+q:=q+x;
+write(q);
+end.
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+program fib;
+var
+  i, a, b, n, c: integer;
+begin
+n:=10;
+b := 1;
+c := 1;
+i:=1;
+write(a);
+write(b);
+write(c);
+while (i<n) do
+begin
+  a := c;
+  c := b;
+  b := a + b;
+  write(b);
+  i:=i+1;
+end;
+end.
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+program fact;
+var
+  i, fact: integer;
+begin
+i:=5;
+fact:=1;
+while (i>1) do
+begin
+    fact:=fact*i;
+    i:=i-1;
+    write(fact);
+end;
+end.
+
+
+//////////////////////////////////////////////////////////////////////////////////
+program arop;
+var
+  i, x, y:real;
+begin
+x:=3.0;
+y:=5.0;
+i :=(13+2+ x*x+y*y-2)/2;
+write(i);
+end.
